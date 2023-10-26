@@ -93,8 +93,7 @@ button{
 }
 
 button:hover{
-    background-color: #fff;
-    color: #000;
+    background-color: #252525;
 }
 
 .image-wrapper{
@@ -118,6 +117,9 @@ button:hover{
     .content{
         flex-direction: column;
     }
+    .image-wrapper img{
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 720px){
@@ -138,5 +140,6 @@ button:hover{
     }
     .image-wrapper img{
         max-width: 400px;
+        justify-content: center;
     }
 }

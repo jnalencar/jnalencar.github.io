@@ -99,8 +99,7 @@ button{
 }
 
 button:hover{
-    background-color: #fff;
-    color: #000;
+    background-color: #252525;
 }
 
 .explorer {
@@ -110,6 +109,13 @@ button:hover{
 
 .explorer button:not(:last-child) {
     margin-right: 5%; /* Ajuste o valor conforme necessário */
+}
+
+.attrebute img{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    max-width: 100px;
 }
 
 @media screen and (max-width: 1075px){
