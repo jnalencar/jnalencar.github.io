@@ -59,6 +59,24 @@ li.nav-link{
     font-weight: 300;
 }
 
+ul.nav-socials{
+    margin: 30 0px;
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+li.nav-social{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+li.nav-social img{
+    height: 30px;
+}
+
 .content{
     display: flex;
     width: 100%;
