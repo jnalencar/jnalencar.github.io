@@ -89,7 +89,7 @@ li.nav-social img{
 }
 
 .main h2{
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .main p{
@@ -97,9 +97,24 @@ li.nav-social img{
     line-height: 23px;
 }
 
+.projeto{
+    display: flex;
+}
+
+.projeto img{
+    justify-content: center;
+    padding: 0 20px;
+    height: 175px;
+}
+
+.linksproj img{
+    margin: 40px;
+    height: 40px;
+}
+
 button{
     margin-top: 10px;
-    width: 25%;
+    width: 100%;
     height: 40px;
     font-size: 15px;
     color: #fff;
@@ -110,17 +125,15 @@ button{
     transition: all 0.3s ease;
 }
 
+button a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 8px 0;
+}
+
 button:hover{
     background-color: #252525;
-}
-
-.explorer {
-    display: flex;
-    justify-content: center;
-}
-
-.explorer button:not(:last-child) {
-    margin-right: 5%; /* Ajuste o valor conforme necessário */
 }
 
 .attrebute img{
@@ -133,6 +146,9 @@ button:hover{
 @media screen and (max-width: 1075px){
     .content{
         flex-direction: column;
+    }
+    .image-wrapper img{
+        justify-content: center;
     }
 }
 
@@ -151,5 +167,9 @@ button:hover{
     }
     button{
         font-size: 13px;
+    }
+    .image-wrapper img{
+        max-width: 400px;
+        justify-content: center;
     }
 }
