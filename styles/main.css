@@ -11,12 +11,12 @@ a{
 
 body{
     color: #fff;
-    background-color: #e9ff99;
+    background-color: #434596;
     background-image:
-        radial-gradient(at 9% 89%, rgb(124, 176, 248) 0px, transparent 50%),
-        radial-gradient(at 72% 6%, rgb(231, 95, 161) 0px, transparent 50%),
-        radial-gradient(at 24% 19%, rgb(248, 157, 129) 0px, transparent 50%),
-        radial-gradient(at 91% 97%, rgb(58, 180, 105) 0px, transparent 50%);
+        radial-gradient(at 9% 89%, rgb(84, 141, 219) 0px, transparent 50%),
+        radial-gradient(at 72% 6%, rgb(120, 143, 194) 0px, transparent 50%),
+        radial-gradient(at 24% 19%, rgb(74, 196, 214) 0px, transparent 50%),
+        radial-gradient(at 91% 97%, rgb(50, 28, 148)0px, transparent 50%);
     min-height: 100vh;
 }
 
@@ -128,7 +128,19 @@ button:hover{
 }
 
 .image-wrapper img{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     max-width: 500px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 @media screen and (max-width: 1075px){
